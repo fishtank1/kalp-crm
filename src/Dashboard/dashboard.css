@@ -1,0 +1,109 @@
+#main-box {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    color: white;
+}
+
+#side-dash-panel {
+    background: linear-gradient(#2a1c5a, #4b3a6e);
+    flex-direction: column;
+    height: 100vh;
+    width: 243px;
+    display: flex;
+    background-color: white;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+#main-dash-panel {
+    flex-direction: column;
+    display: flex;
+    width: 85.75vw;
+    height: 100vh;
+    background-color: white;
+}
+
+/* SIDE PANEL */
+#first-section {
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    margin: 15px 20px;
+    align-items: center;
+}
+
+#first-section h3 {
+    color: white;
+}
+
+#first-section img {
+    width: 60px;
+    margin-right: 10px;
+}
+
+/* User info */
+#user-info {
+    padding: 20px;
+    padding-left: 30px;
+    margin-top: -30px;
+}
+
+#user-info h4 {
+    font-size: 0.85em;
+}
+
+#user-info p {
+    margin-top: -5px;
+    font-size: 0.85em;
+}
+
+/* tools-section */
+#tools-section {
+    flex-direction: column;
+    display: flex;
+    padding: 0 30px;
+    justify-content: center;
+}
+
+.fa-solid {
+    margin-right: 10px;
+}
+
+#tools-section div {
+    border-radius: 3px;
+    font-size: 0.85em;
+    font-weight: bold;
+    width: 90%;
+    padding: 14px;
+    cursor: pointer;
+    margin: 5px 0px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#tools-section div:hover {
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    transition: background-color 0.3s ease-in-out;
+    color: black;
+    transition: box-shadow 0.3s ease-in-out;
+    background-color: rgba(220, 220, 220, 0.027);
+} 
+
+/* Settings and Logout */
+#settings-logout {
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    margin: auto;
+    width: 6vw;
+    margin-top: 10px;
+    font-size: 0.8em;
+    margin-left: 43px;
+    justify-content: space-between;
+}
+
+#settings-logout div:first-child, #settings-logout div:last-child {
+    cursor: pointer;
+    color: rgb(220, 220, 220);
+}
